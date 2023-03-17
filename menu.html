@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+header{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: maroon;
+            color: white;
+            font-weight: bolder;
+            height: 65px;
+        }
+        nav{
+            height: fit-content;
+    position: relative;
+    left: 526px;
+    top: 19px;}
+        li{    list-style: none;
+    margin-left: 48px;
+    float: left;
+    font-size: 22px;
+        }
+        .menu{
+            width: 1276px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: url('menuback.avif');
+        }
+        .variety{
+            display: flex;
+            flex-wrap: wrap;
+           justify-content: center;
+            width: 1212px;
+    height: 360px;
+    margin-top: 27px;
+        }
+        h1{
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+       
+        .food{
+            
+            height: 250px;
+            width: 250px;
+            position: relative;
+            top: 72px;
+            margin: auto;
+            top: 22px;
+    right: 82px;
+    margin: auto;
+        }
+        
+        img{
+            height: 250px;
+            width: 250px;
+            border-radius: 120px;
+        }
+        h2{
+            position: relative;
+            left: 520px;
+            font-family: 'Pacifico', cursive;
+            color:maroon;
+            text-shadow: 5px 5px white;
+            font-size: 50px;
+            height: fit-content;
+            margin-bottom: 5px;
+            transition-property: all;
+            transition-duration: 10s;
+        }
+        img:hover{
+            height: 260px;
+            width: 260px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cafe TeaGather</h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/home.html" target="_blank">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/menu.html" target="_blank">Browse Our Menu</a></li>
+                <li><a href="http://127.0.0.1:5500/saefeed.html" target="_blank">Feeback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="menu">
+        <div class="variety">
+            <h2>Starters</h2>
+<div class="food">
+    <img src="pavbhaji.jpeg" alt="blank" srcset="">
+</div>
+<div class="food">
+    <img src="panipuri.jpg" alt="black">
+</div>
+<div class="food">
+    <img src="noodles.jpeg" alt=""black srcset="">
+</div>
+        </div>
+        <div class="variety">
+            <h2>Cakes & Pasteries</h2>
+<div class="food">
+    <img src="pastry.jpg" alt="black" srcset="">
+</div>
+<div class="food">
+    <img src="donut.webp" alt="black" srcset="">
+</div>
+<div class="food">
+    <img src="muffins.jpeg" alt="black" srcset="">
+</div>
+        </div>
+        <div class="variety">
+            <h2>Beverages</h2>
+          <div class="food">
+            <img src="milkshake.jpeg" alt="black" srcset="">
+          </div>
+          <div class="food">
+            <img src="mocktail.webp" alt="black" srcset="">
+          </div>
+          <div class="food">
+            <img src="fruitjuice.webp" alt="black" srcset="">
+          </div>  
+        </div>
+    </div>
+</body>
+</html>
